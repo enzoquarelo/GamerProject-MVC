@@ -18645,6 +18645,11 @@
   "RootNamespace": "GamerProject_MVC",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

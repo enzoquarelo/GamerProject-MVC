@@ -28,7 +28,7 @@ namespace gamer_project_MVC.Infra
                 // AUTENTICACAO PELO SQLSERVER
                 // user Id = "nome do seu usuario de login"
                 // pwd = "senha do seu usuario"
-                optionsBuilder.UseSqlServer("Data Source ="); //string de conexão com o banco
+                optionsBuilder.UseSqlServer("Data Source = NOTE22-S15; Initial Catalog = gamermanha; User Id = sa ; pwd = Senai@134 ;TrustServerCertificate = true"); //string de conexão com o banco
             }
         }
 

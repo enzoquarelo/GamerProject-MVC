@@ -14,5 +14,7 @@ namespace gamer_project_MVC.Models
         // informando que informação abaixo é uma chave estrangeira (FK)
         [ForeignKey("Equipe")] // colocar nome da classe que deseja fazer a relação como parâmetro
         public int IdEquipe { get; set; } // FK
+        public Equipe Equipe { get; set; }
+        
     }
 }
