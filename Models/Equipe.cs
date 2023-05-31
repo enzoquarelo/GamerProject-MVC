@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace gamer_project_MVC.Models
+namespace GamerProject_MVC.Models
 {
     public class Equipe
     {

@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace gamer_project_MVC.Models
+namespace GamerProject_MVC.Models
 {
     public class Jogador
     {
@@ -15,6 +15,5 @@ namespace gamer_project_MVC.Models
         [ForeignKey("Equipe")] // colocar nome da classe que deseja fazer a relação como parâmetro
         public int IdEquipe { get; set; } // FK
         public Equipe Equipe { get; set; }
-        
     }
 }

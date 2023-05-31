@@ -4,9 +4,23 @@
     ViewData["Title"] = "Equipes";
 }
 
+
 <h1>Tela de Equipes</h1>
 
-<table>
+<form method="post" action="@Url.Action("cadastrar")">
+    
+    <label for="">Nome</label>
+    <input type="text" name="Nome">
+
+    <label for="">Imagem</label>
+    <input type="text" name="Imagem">
+
+    <button type="submit">Cadastrar</button>
+
+</form>
+
+
+<table class="table table-striped table-responsive">
     <thead>
         <th>Id</th>
         <th>Nome</th>

@@ -1,4 +1,5 @@
-using gamer_project_MVC.Infra;
+using GamerProject_MVC.Infra;
+using GamerProject_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -26,6 +27,23 @@ namespace GamerProject_MVC.Controllers
 
 
             return View();
+        }
+
+        [Route("Cadastrar")]
+        public IActionResult Cadastrar(IFormCollection form)
+        {
+            //instancia o objeto
+            Equipe novaEquipe = new Equipe();
+
+            //atribuicao de valores recebidos do formulario
+            novaEquipe.Nome = form["Nome"].ToString();
+            novaEquipe.Imagem = form["Imagem"].ToString();
+
+            //adiciona objeto na tabela do BD
+            c.SaveChanges();
+
+            //retorna para o local chamado a rota de listar(metodo Index)
+            return LocalRedirect("~/Equipe/Listar");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

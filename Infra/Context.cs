@@ -1,9 +1,9 @@
-using gamer_project_MVC.Models;
+using GamerProject_MVC.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace gamer_project_MVC.Infra
+namespace GamerProject_MVC.Infra
 {
-    public class Context : DbContext
+       public class Context : DbContext
     {
         public Context()
         {
@@ -28,7 +28,7 @@ namespace gamer_project_MVC.Infra
                 // AUTENTICACAO PELO SQLSERVER
                 // user Id = "nome do seu usuario de login"
                 // pwd = "senha do seu usuario"
-                optionsBuilder.UseSqlServer("Data Source = NOTE22-S15; Initial Catalog = gamermanha; User Id = sa ; pwd = Senai@134 ;TrustServerCertificate = true"); //string de conexão com o banco
+                optionsBuilder.UseSqlServer("Data Source = NOTE18-S14; Initial catalog = gamerManha; User Id = sa; pwd = Senai@134; TrustServerCertificate = true"); //string de conexão com o banco
             }
         }
 
@@ -36,4 +36,5 @@ namespace gamer_project_MVC.Infra
         public DbSet<Jogador> Jogador { get; set; }
         public DbSet<Equipe> Equipe { get; set; }
     }
+
 }
