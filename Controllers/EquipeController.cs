@@ -2,7 +2,6 @@ using GamerProject_MVC.Infra;
 using GamerProject_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace GamerProject_MVC.Controllers
 {
     [Route("[controller]")]
@@ -15,35 +14,60 @@ namespace GamerProject_MVC.Controllers
             _logger = logger;
         }
 
-        //Objeto para o acesso a classe Context (necessidade do using)
-        Context c = new Context();
+        Context c = new Context(); // instancia do context para acessar o banco e dados
 
         [Route("Listar")] //http://localhost/Equipe/Listar
         public IActionResult Index()
         {
-            // Context.cs é o seu caminho de acesso ao Banco de Dados(dar acesso Controller->Context)
-            // ViewBag é a responsável por armazenar as equipes listadas do Banco de Dados, retorna a View de Equipe(Front-End)
-            ViewBag.Equipe = c.Equipe.ToList();
+            ViewBag.Equipe = c.Equipe.ToList(); //atraves do context ta acessando a tabela equipe e fazendo a listagem. A viewbag é uma variavel que guardara as equipes listadas no banco de dados
 
-
+            // retorna a view da equipe (TELA)
             return View();
         }
 
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
-            //instancia o objeto
-            Equipe novaEquipe = new Equipe();
+            Equipe novaEquipe = new Equipe(); // instancia do objeto equipe
 
-            //atribuicao de valores recebidos do formulario
+            // atribuicao de valores recebidos do formulario 
             novaEquipe.Nome = form["Nome"].ToString();
-            novaEquipe.Imagem = form["Imagem"].ToString();
 
-            //adiciona objeto na tabela do BD
-            c.SaveChanges();
+            //novaEquipe.Imagem = form["Imagem"].ToString(); //! aqui estava recebendo como string, nao queremos isso
 
-            //retorna para o local chamado a rota de listar(metodo Index)
-            return LocalRedirect("~/Equipe/Listar");
+            // inicio da logica do upload da imagem 
+            if (form.Files.Count > 0)
+            {
+                var file = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes", folder, file.FileName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+
+                novaEquipe.Imagem = file.FileName;
+            }
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+
+            // fim da logica de upload 
+
+            c.Equipe.Add(novaEquipe); // adiciona objeto na tabela do banco de dados
+
+            c.SaveChanges(); // salva alteracoes no banco de dados 
+
+            return LocalRedirect("~/Equipe/Listar"); // retorna para o local chamando a rota de listar (metodo index)
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
