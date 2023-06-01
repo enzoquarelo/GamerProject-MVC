@@ -21,9 +21,11 @@
 <table class="table table-striped table-responsive">
     
     <thead>
-        <th>Id</th>
+        <th>ID</th>
         <th>Nome</th>
         <th>Imagem</th>
+        <th>Excluir</th>
+        <th>Editar</th>
     </thead>
 
     <tbody>
@@ -36,6 +38,12 @@
                 <td>
                     <img src="/img/Equipes/@equipe.Imagem" alt="" width="80px" height="80px">
                     
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">Excluir</a>
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="">Editar</a>
                 </td>
             </tr>            
         }

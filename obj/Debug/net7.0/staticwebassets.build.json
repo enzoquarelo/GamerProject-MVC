@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MdWx4GAAmxEp/AEgl52GhoxulDP6+fRWU/u4FNvVpFc=",
+  "Hash": "ii29h5BIxGRScDFM45OXiOuPybHcwfQLcs071OGnA/w=",
   "Source": "GamerProject-MVC",
   "BasePath": "_content/GamerProject-MVC",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/palmeiras-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\palmeiras-logo.png"
     },
     {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\js\\site.js",

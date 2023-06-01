@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\palmeiras-logo.png"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
