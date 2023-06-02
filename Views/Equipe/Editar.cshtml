@@ -1,0 +1,22 @@
+@model Equipe
+
+@{
+    ViewData["Tittle"] = "Equipe";
+}
+
+<h1>Editar Equipe</h1>
+
+<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+    <label for=""></label>
+    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+
+    <label for="">Nome</label>
+    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+
+    <label for="">Imagem</label>
+    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+
+    <button type="submit">Atualizar</button>
+
+
+</form>
