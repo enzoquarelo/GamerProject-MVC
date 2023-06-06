@@ -1,7 +1,7 @@
 @model Jogador
 
 @{
-    ViewData["Title"] = "Jogadore";
+    ViewData["Title"] = "Jogador";
 }
 
 <h1> Tela de Jogadores </h1>
@@ -15,13 +15,18 @@
     <label for="">Senha</label>
     <input type="text" name="Senha">
     <label for="">Equipe</label>
+
     <select class="form-control" id="imagemEquipe" name="Equipe">
+        
         <option value="">Selecione</option>
+
         @foreach (var equipe in ViewBag.Equipe)
         {
+            
             <option value="@equipe.IdEquipe">@equipe.Nome</option>
+        
         }
-    </select>
+
     </select>
 
     <button type="submit">Cadastrar</button>
@@ -46,8 +51,9 @@
             <tr>
                 <td>@jogador.IdJogador</td>
                 <td>@jogador.Nome</td>
+                <td>@jogador.Email</td>
                 <td>
-                    <img src="/img/Equipes/" alt="" width="80px" height="80px">
+                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="" width="80px" height="80px">
 
                 </td>
                 <td>

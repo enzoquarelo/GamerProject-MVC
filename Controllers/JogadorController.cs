@@ -16,6 +16,7 @@ namespace GamerProject_MVC.Controllers
 
         Context c = new Context();
 
+        [Route("Listar")]
         public IActionResult Index()
         {
             ViewBag.Jogador = c.Jogador.ToList();
@@ -32,6 +33,7 @@ namespace GamerProject_MVC.Controllers
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
             novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["Equipe"].ToString());
 
             c.Jogador.Add(novoJogador);
 
@@ -44,7 +46,7 @@ namespace GamerProject_MVC.Controllers
         public IActionResult Excluir(int id)
         {
             Jogador jogadorExcluir = c.Jogador.FirstOrDefault(e => e.IdJogador == id);
-            
+
 
             c.Remove(jogadorExcluir);
 
@@ -63,8 +65,8 @@ namespace GamerProject_MVC.Controllers
             return View("Editar");
         }
 
-                [Route("Atualizar")]
-        public IActionResult Atualizar (IFormCollection form)
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form)
         {
             Jogador jogadorAtualizada = new Jogador();
 
@@ -76,7 +78,7 @@ namespace GamerProject_MVC.Controllers
             jogadorAtualizada.Nome = jogadorAtualizada.Nome;
 
             c.Jogador.Update(jogadorAtualizada);
-            
+
             c.SaveChanges();
 
             return LocalRedirect("~/Jogador/Listar");
