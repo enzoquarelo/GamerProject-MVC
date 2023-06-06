@@ -61,6 +61,7 @@ namespace GamerProject_MVC.Controllers
             Jogador jogadorBuscado = c.Jogador.FirstOrDefault(j => j.IdJogador == id);
 
             ViewBag.Jogador = jogadorBuscado;
+            ViewBag.Equipe = c.Equipe.ToList();
 
             return View("Editar");
         }
@@ -71,13 +72,17 @@ namespace GamerProject_MVC.Controllers
             Jogador jogadorAtualizada = new Jogador();
 
             jogadorAtualizada.IdJogador = int.Parse(form["IdJogador"].ToString());
+            jogadorAtualizada.IdEquipe = int.Parse(form["IdEquipe"].ToString());
             jogadorAtualizada.Nome = form["Nome"].ToString();
+            jogadorAtualizada.Email = form["Email"].ToString();
 
             Jogador jogadorProcurado = c.Jogador.First(j => j.IdJogador == jogadorAtualizada.IdJogador);
 
-            jogadorAtualizada.Nome = jogadorAtualizada.Nome;
+            jogadorProcurado.Nome = jogadorAtualizada.Nome;
+            jogadorProcurado.Email = jogadorAtualizada.Email;
+            jogadorProcurado.IdEquipe = jogadorAtualizada.IdEquipe;
 
-            c.Jogador.Update(jogadorAtualizada);
+            c.Jogador.Update(jogadorProcurado);
 
             c.SaveChanges();
 
