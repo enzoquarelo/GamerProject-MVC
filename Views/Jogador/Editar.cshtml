@@ -4,36 +4,43 @@
     ViewData["Tittle"] = "Jogador";
 }
 
-<h1>Editar Jogador</h1>
+@if (ViewBag.UserName == null)
+{
+    <a asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+    <h1>Editar Jogador</h1>
 
-<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <label for=""></label>
-    <input type="hidden" name="IdEquipe">
-    <label for=""></label>
-    <input type="hidden" name="IdJogador" value="@ViewBag.jogador.IdJogador">
+        <label for=""></label>
+        <input type="hidden" name="IdEquipe">
+        <label for=""></label>
+        <input type="hidden" name="IdJogador" value="@ViewBag.jogador.IdJogador">
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Jogador.Nome" required>
+        <label for="">Nome</label>
+        <input type="text" name="Nome" value="@ViewBag.Jogador.Nome" required>
 
-    <label for="">Email</label>
-    <input type="text" name="Email" value="@ViewBag.Jogador.Email">
+        <label for="">Email</label>
+        <input type="text" name="Email" value="@ViewBag.Jogador.Email">
 
-    <label for="">Equipe</label>
-    <select class="form-control" name="IdEquipe">
-        
-        <option value="">Selecione</option>
+        <label for="">Equipe</label>
+        <select class="form-control" name="IdEquipe">
 
-        @foreach (var equipe in ViewBag.Equipe)
-        {
-            
-            <option value="@equipe.IdEquipe">@equipe.Nome</option>
-        
-        }
+            <option value="">Selecione</option>
 
-    </select>
+            @foreach (var equipe in ViewBag.Equipe)
+            {
 
-    <button type="submit">Atualizar</button>
+                <option value="@equipe.IdEquipe">@equipe.Nome</option>
+
+            }
+
+        </select>
+
+        <button type="submit">Atualizar</button>
 
 
-</form>
+    </form>
+}

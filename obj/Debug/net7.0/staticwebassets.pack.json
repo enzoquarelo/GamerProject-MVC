@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\BarcelonaLogo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\BarcelonaLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\CorinthiansLogo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\CorinthiansLogo.png"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\atletico-mg.svg",
       "PackagePath": "staticwebassets\\img\\Equipes\\atletico-mg.svg"
     },

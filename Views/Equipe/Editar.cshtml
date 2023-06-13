@@ -4,19 +4,26 @@
     ViewData["Tittle"] = "Equipe";
 }
 
-<h1>Editar Equipe</h1>
+@if (ViewBag.UserName == null)
+{
+    <a asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
+    <h1>Editar Equipe</h1>
 
-<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
-    <label for=""></label>
-    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+        <label for=""></label>
+        <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+        <label for="">Nome</label>
+        <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
 
-    <label for="">Imagem</label>
-    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+        <label for="">Imagem</label>
+        <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
-    <button type="submit">Atualizar</button>
+        <button type="submit">Atualizar</button>
 
 
-</form>
+    </form>
+}
