@@ -29,15 +29,15 @@ else
             <section class="container-grid cadastro-equipes">
 
 
-                <form class="from-cada-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+                <form class="frm-cad-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
                     <div class="cadequipe-titulo">
                         <h1>Cadastro de Equipes</h1>
                         <hr>
                     </div>
 
-                    <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" required>
+                    <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome"
+                        required>
                     <label class="foto" for="foto-file">
-                        Nenuma imagem selecionada...
                         <input type="file" name="Imagem" id="foto-file">
                     </label>
 
@@ -61,11 +61,11 @@ else
                                 <td>@equipe.IdEquipe</td>
                                 <td>@equipe.Nome</td>
                                 <td>
-                                    <img src="/img/Equipes/@equipe.Imagem" alt="" width="80px" height="80px">
+                                    <img src="/img/Equipes/@equipe.Imagem" alt="" width="60px" height="60px">
                                 </td>
                                 <td>
                                     <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
-                                        <img class="yellow-trash" src="./assets/trash.png"alt="">
+                                        <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                     </a>
                                 </td>
                             </tr>
