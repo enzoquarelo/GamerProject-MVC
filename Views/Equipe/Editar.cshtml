@@ -10,7 +10,7 @@
 }
 else
 {
-    <h1>Editar Equipe</h1>
+    @* <h1>Editar Equipe</h1>
 
     <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
         <label for=""></label>
@@ -25,5 +25,84 @@ else
         <button type="submit">Atualizar</button>
 
 
-    </form>
+    </form> *@
+
+        <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - GamerProject_MVC</title>
+        <link rel="stylesheet" href="~/css/login.css">
+        <link rel="stylesheet" href="~/css/Header-Footer.css">
+    </head>
+
+    <body>
+
+        <!-- MAIN -->
+        <main>
+
+            <section class="container-grid cadastro-equipes">
+
+
+                <form action="" class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+                    <div class="cadequipe-titulo">
+                        <h1>Cadastro de Equipes</h1>
+                        <hr>
+                    </div>
+
+                    <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" value="@ViewBag.Equipe.Nome" required>
+                    <label class="foto" for="foto-file">
+                        Nenuma imagem selecionada...
+                        <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem" id="foto-file">
+                    </label>
+
+                    <button>Cadastro</button>
+
+
+
+                    <select class="equipeid" id="equipeid">
+                        <option value="">Selecione uma Equipe</option>
+                        <option value="x">Equipe X</option>
+                        <option value="y">Equipe Y</option>
+                    </select>
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nome</th>
+                            <th>Foto</th>
+                            <th>&spades;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Loud</td>
+                            <td><img class="green-play" src="./assets/green-play.svg" alt=""></td>
+                            <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Loud</td>
+                            <td><img class="green-play" src="./assets/green-play.svg" alt=""></td>
+                            <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Loud</td>
+                            <td><img class="green-play" src="./assets/green-play.svg" alt=""></td>
+                            <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+    </body>
+
+    </html>
 }

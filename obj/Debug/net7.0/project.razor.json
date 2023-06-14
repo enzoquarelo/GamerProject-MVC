@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\Views\\Shared\\_LayoutBACKUP.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutBACKUP.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\css\\Header-Footer.css"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
