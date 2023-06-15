@@ -29,6 +29,13 @@ header label {
   height: 30px;
 }
 
+/* Formatar Icone de Email */
+#icon_mail
+{
+  width: 20px;
+  height: 17px;
+}
+
 
 /* esconde os elementos desnecessários no mobile */
 header .header-top,
