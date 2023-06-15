@@ -50,8 +50,9 @@ else
                         <tr>
                             <th>Id</th>
                             <th>Nome</th>
-                            <th>Foto</th>
-                            <th>&spades;</th>
+                            <th>Imagem</th>
+                            <th>Excluir</th>
+                            <th>Editar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -66,6 +67,11 @@ else
                                 <td>
                                     <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
                                         <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">
+                                        <img class="yellow-pencil" src="~/assets/icon_pencil.png" alt="">
                                     </a>
                                 </td>
                             </tr>
