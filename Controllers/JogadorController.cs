@@ -64,6 +64,7 @@ namespace GamerProject_MVC.Controllers
 
             ViewBag.Jogador = jogadorBuscado;
             ViewBag.Equipe = c.Equipe.ToList();
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
 
             return View("Editar");
         }

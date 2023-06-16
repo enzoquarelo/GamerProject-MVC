@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\assets\\green-play.svg"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\assets\\icon_pencil.png",
+      "PackagePath": "staticwebassets\\assets\\icon_pencil.png"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\assets\\instagram-yellow.svg",
       "PackagePath": "staticwebassets\\assets\\instagram-yellow.svg"
     },
@@ -249,8 +253,16 @@
       "PackagePath": "staticwebassets\\css\\equipes.css"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\equipesEditar.css",
+      "PackagePath": "staticwebassets\\css\\equipesEditar.css"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\jogadores.css",
       "PackagePath": "staticwebassets\\css\\jogadores.css"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\jogadoresEditar.css",
+      "PackagePath": "staticwebassets\\css\\jogadoresEditar.css"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\login.css",
@@ -273,12 +285,20 @@
       "PackagePath": "staticwebassets\\images\\Background-Login.png"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner-Equipes.jpeg",
+      "PackagePath": "staticwebassets\\images\\Banner-Equipes.jpeg"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner_Liga-Game-Mobile.png",
       "PackagePath": "staticwebassets\\images\\Banner_Liga-Game-Mobile.png"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner_Liga-Game.png",
       "PackagePath": "staticwebassets\\images\\Banner_Liga-Game.png"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner_Liga_Gamers.mp4",
+      "PackagePath": "staticwebassets\\images\\Banner_Liga_Gamers.mp4"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Card-FIFA.png",
@@ -367,6 +387,10 @@
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\atletico-mg.svg",
       "PackagePath": "staticwebassets\\img\\Equipes\\atletico-mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\logo-senai.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\logo-senai.png"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",

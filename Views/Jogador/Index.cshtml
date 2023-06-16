@@ -17,7 +17,7 @@ else
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Equipes</title>
+        <title>Jogadores</title>
         <link rel="stylesheet" href="~/css/Header-Footer.css">
         <link rel="stylesheet" href="~/css/jogadores.css">
 
@@ -53,7 +53,7 @@ else
                     <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:"
                         name="Email">
                     <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha">
-                    <button>Cadastrar</button>
+                    <button type="submit">Cadastrar</button>
 
 
 
@@ -85,13 +85,16 @@ else
 
                                 </td>
                                 <td>
-                                    <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jogador.IdJogador">
+                                    <a asp-area="" asp-controller="Jogador" asp-action="Excluir"
+                                        asp-route-id="@jogador.IdJogador">
                                         <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                     </a>
                                 </td>
                                 <td>
                                     <a asp-area="" asp-controller="Jogador" asp-action="Editar"
-                                        asp-route-id="@jogador.IdJogador">Editar</a>
+                                        asp-route-id="@jogador.IdJogador">
+                                            <img class="yellow-pencil" src="~/assets/icon_pencil.png" alt="">
+                                        </a>
                                 </td>
                             </tr>
                         }

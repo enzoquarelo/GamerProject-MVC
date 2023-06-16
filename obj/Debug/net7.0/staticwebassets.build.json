@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bxm3q8hL6AZ6bvashT5rH79FKpT4gIxhp97/ZBvyUxo=",
+  "Hash": "cB6yUg7DLGWv7yMZgw302japaW6n3H5VumuuhsBad0Q=",
   "Source": "GamerProject-MVC",
   "BasePath": "_content/GamerProject-MVC",
   "Mode": "Default",
@@ -748,6 +748,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\green-play.svg"
     },
     {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\assets\\icon_pencil.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "assets/icon_pencil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\icon_pencil.png"
+    },
+    {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\assets\\instagram-yellow.svg",
       "SourceId": "GamerProject-MVC",
       "SourceType": "Discovered",
@@ -1071,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\css\\equipes.css"
     },
     {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\equipesEditar.css",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "css/equipesEditar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\equipesEditar.css"
+    },
+    {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\Header-Footer.css",
       "SourceId": "GamerProject-MVC",
       "SourceType": "Discovered",
@@ -1103,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\jogadores.css"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\jogadoresEditar.css",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "css/jogadoresEditar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogadoresEditar.css"
     },
     {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\css\\login.css",
@@ -1292,6 +1343,23 @@
       "OriginalItemSpec": "wwwroot\\images\\backgrund_notícias.png"
     },
     {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner_Liga_Gamers.mp4",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "images/Banner_Liga_Gamers.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Banner_Liga_Gamers.mp4"
+    },
+    {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner_Liga-Game-Mobile.png",
       "SourceId": "GamerProject-MVC",
       "SourceType": "Discovered",
@@ -1324,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Banner_Liga-Game.png"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Banner-Equipes.jpeg",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "images/Banner-Equipes.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Banner-Equipes.jpeg"
     },
     {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\images\\Card-FIFA.png",
@@ -1596,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\CorinthiansLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\logo-senai.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/logo-senai.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\logo-senai.png"
     },
     {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",

@@ -235,6 +235,9 @@ main .cadastro-equipes table td img.yellow-pencil {
 @media screen and (min-width: 992px) {
     main {
         margin-top: 0px;
+        background-image: url(../images/Banner-Equipes.jpeg);
+        background-size: cover;
+        background-position: top;
     }
 
     .container-grid {

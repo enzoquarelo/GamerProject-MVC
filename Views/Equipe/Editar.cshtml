@@ -10,20 +10,51 @@
 }
 else
 {
-    <h1>Editar Equipe</h1>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
 
-    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
-        <label for=""></label>
-        <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - GamerProject_MVC</title>
+        <link rel="stylesheet" href="~/css/equipesEditar.css">
+        <link rel="stylesheet" href="~/css/Header-Footer.css">
+    </head>
 
-        <label for="">Nome</label>
-        <input type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+    <body>
 
-        <label for="">Imagem</label>
-        <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+        <!-- MAIN -->
+        <main>
 
-        <button type="submit">Atualizar</button>
+            <section class="container-grid cadastro-equipes">
 
 
-    </form>
+                <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+                    <div class="cadequipe-titulo">
+                        <h1>Edição de Equipe</h1>
+                        <hr>
+                    </div>
+
+                    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+
+                    <label for="" style="width: 100%;padding-left: 4px;padding-bottom: 4px;font-family: TitilliumWeb-SemiBold;font-size: 16px;color: #F9AA01;">Nome</label>
+
+                    <input class="campo-entrada" type="text" name="Nome" value="@ViewBag.Equipe.Nome" required>
+
+                    <label class="foto" for="foto-file" style="width: 100%;padding-left: 4px;padding-bottom: 4px;font-family: TitilliumWeb-SemiBold;font-size: 16px;">Imagem atual da Equipe : <img src="/img/Equipes/@ViewBag.equipe.Imagem" alt="" width="80px" height="80px">
+
+                    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem" id="foto-file">
+
+                    </label>
+
+                    <button type="submit">Atualizar</button>
+
+                </form>
+
+            </section>
+        </main>
+
+    </body>
+
+    </html>
 }

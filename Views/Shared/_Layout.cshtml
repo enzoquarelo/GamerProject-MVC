@@ -11,7 +11,7 @@
 
 <body>
 
-      <!-- HEADER -->
+    <!-- HEADER -->
     <header class="header">
         <div class="header-top">
             <div class="container-grid header-top-flex">
@@ -85,8 +85,16 @@
                 <input type="checkbox" id="mostra-esconde-icones">
                 <div class="icons-header-bkg">
                     <div class="icons-header">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index"><img
-                                src="~/assets/user-icon.svg" alt="user-login"></a>
+                        @if (ViewBag.Username != null)
+                        {
+                            <img src="~/assets/user-icon.svg" alt="user-login">
+                        }
+                        else
+                        {
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">
+                                <img src="~/assets/user-icon.svg" alt="user-login">
+                            </a>
+                        }
                         <img src="~/assets/market-icon.png" alt="market icon">
                         <img src="~/assets/search-icon.png" alt="search icon">
                     </div>
