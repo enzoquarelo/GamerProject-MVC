@@ -381,8 +381,20 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\BarcelonaLogo.png"
     },
     {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Cloud9-Logo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Cloud9-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Cloud9.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Cloud9.png"
+    },
+    {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\CorinthiansLogo.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\CorinthiansLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Furia_Esports_logo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Furia_Esports_logo.png"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\atletico-mg.svg",
@@ -391,6 +403,10 @@
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\logo-senai.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\logo-senai.png"
+    },
+    {
+      "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\loud-logo.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\loud-logo.png"
     },
     {
       "Id": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",

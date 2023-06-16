@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cB6yUg7DLGWv7yMZgw302japaW6n3H5VumuuhsBad0Q=",
+  "Hash": "b4uP0jAVa8d8dw4HrhMByVlvakfZ9aCVWoYmstHEs1k=",
   "Source": "GamerProject-MVC",
   "BasePath": "_content/GamerProject-MVC",
   "Mode": "Default",
@@ -1666,6 +1666,40 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\BarcelonaLogo.png"
     },
     {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Cloud9-Logo.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/Cloud9-Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\Cloud9-Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Cloud9.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/Cloud9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\Cloud9.png"
+    },
+    {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\CorinthiansLogo.png",
       "SourceId": "GamerProject-MVC",
       "SourceType": "Discovered",
@@ -1683,6 +1717,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\CorinthiansLogo.png"
     },
     {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\Furia_Esports_logo.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/Furia_Esports_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\Furia_Esports_logo.png"
+    },
+    {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\logo-senai.png",
       "SourceId": "GamerProject-MVC",
       "SourceType": "Discovered",
@@ -1698,6 +1749,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\logo-senai.png"
+    },
+    {
+      "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\loud-logo.png",
+      "SourceId": "GamerProject-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\",
+      "BasePath": "_content/GamerProject-MVC",
+      "RelativePath": "img/Equipes/loud-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\loud-logo.png"
     },
     {
       "Identity": "C:\\Users\\49470161831\\Desktop\\GamerProject-MVC\\wwwroot\\img\\Equipes\\palmeiras-logo.png",

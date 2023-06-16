@@ -31,7 +31,7 @@ else
             <section class="container-grid cadastro-equipes">
 
 
-                <form action="" class="frm-cad-equipe">
+                <form class="frm-cad-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
                     <div class="cadequipe-titulo">
                         <h1>Cadastro de Jogadores</h1>
                         <hr>
@@ -81,7 +81,7 @@ else
                                 <td>@jogador.Nome</td>
                                 <td>@jogador.Email</td>
                                 <td>
-                                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="" width="60px" height="60px">
+                                    <img src="/img/Equipes/@jogador.Equipe.Imagem" alt="" width="45px" height="45px">
 
                                 </td>
                                 <td>
